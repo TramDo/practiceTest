@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #vals=($(seq 5 | shuf))
-declare -a options=(a b c d e)
+
 if [ $# -eq 6 ]
 then
 	echo $1
